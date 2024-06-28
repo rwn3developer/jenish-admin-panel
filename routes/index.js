@@ -21,6 +21,7 @@ routes.post('/newpasswordPost',authcontroller.newpasswordPost)
 
 routes.use('/admin/category',require('./categoryRoute'))
 routes.use('/admin/subcategory',require('./subcategoryRoute'))
+routes.use('/admin/product',require('./productRoute'))
 
 
 
